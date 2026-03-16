@@ -17,7 +17,7 @@ folder = 'car_plates'
 os.makedirs(folder, exist_ok=True)
 
 # Page title and description
-st.title("License Plate Recognition")
+st.title("License Plate Recognition App (MM)")
 st.write("Upload a car image to detect the plate number")
 
 # File uploader widget
