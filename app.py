@@ -57,9 +57,9 @@ if uploaded:
     if detected:
         for text, conf in detected:
             st.success("Detected Plate Number: " + text + " (" + str(round(conf * 100)) + "% Confidence)")
+    else:
+        st.error("Unable to detect number plate")
 
 # Add footer
 st.markdown("---")
 st.caption("Built by Mithirendra M")
-    else:
-        st.error("Unable to detect number plate")
