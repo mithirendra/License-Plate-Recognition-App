@@ -16,5 +16,5 @@ A Python-based OCR app that detects and reads Malaysian license plates from uplo
 ## Current Accuracy
 Approximately 65% — works best on clear, well-lit images with standard plate fonts.
 
-## Author
-Built by Mithirendra M
+## Built By
+&copy; 2026 Mithirendra Maniam
